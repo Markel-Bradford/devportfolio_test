@@ -331,57 +331,59 @@ function Projects() {
                 projectInfo5InView ? styles.animationFade : styles.hidden
               }`}>
               <div>
-                <p className="information">
-                  The objective of this collection of projects was to reinforce
-                  and further develop my understanding of the fundamentals of
-                  web development, namely HTML, CSS, and JavaScript. As these
-                  form the cornerstone of web development, I deemed it
-                  imperative to solidify existing knowledge and augment my skill
-                  set.
-                </p>
-                <p className="information">
-                  The first project entailed replicating a generic landing page
-                  based on a provided image, while infusing it with original
-                  content. Opting to design a landing page for a fitness
-                  business, I utilized flexbox for creating scalable containers
-                  and content, employing solely HTML5 and CSS3 for its
-                  realization.
-                </p>
-                <p className="information">
-                  The second project involved crafting a simple rock, paper,
-                  scissors game, employing a JavaScript backend to manipulate
-                  the DOM. In this interactive game, the player engages with a
-                  computer opponent, with selections determined randomly from an
-                  array of choices. Dynamic frontend updates based on player and
-                  computer choices, alongside win condition functions, were
-                  implemented, rendering the first player to attain 5 points the
-                  winner.
-                </p>
-                <p className="information">
-                  For the third project, the challenge was to complete an
-                  etch-a-sketch by establishing a scalable grid using flexbox.
-                  While CSS Grid could have been utilized, the aim was to
-                  reinforce comprehension of flexbox and its practical
-                  application. Leveraging a JavaScript backend to manipulate the
-                  DOM, the program facilitates the creation of the etch-a-sketch
-                  grid layout, with event listeners enabling tile coloring in
-                  either black or a randomly generated array of rainbow colors
-                  upon mouse interaction.
-                </p>
-                <p className="information">
-                  The final project entailed developing a functional calculator
-                  capable of executing the four basic mathematical functions.
-                  While the project stipulated a simple HTML-based calculator, I
-                  opted for a more challenging approach—employing DOM
-                  manipulation in JavaScript—to consolidate learnings from prior
-                  assignments. Utilizing a similar method as the etch-a-sketch
-                  for creating calculator buttons, the program incorporates
-                  event listeners for keydown, keyup, and onclick events,
-                  alongside arrays and maps for key value creation.
-                  Additionally, individual functions were created for each
-                  mathematical operation, with switch cases facilitating
-                  operation execution.
-                </p>
+                <div>
+                  <p class="information">
+                    The objective of this collection of projects was to
+                    reinforce and further develop my understanding of the
+                    fundamentals of web development, namely HTML, CSS, and
+                    JavaScript. As these form the cornerstone of web
+                    development, I deemed it imperative to solidify existing
+                    knowledge and augment my skill set.
+                  </p>
+                  <p class="information">
+                    The first project entailed replicating a generic landing
+                    page based on a provided image, while infusing it with
+                    original content. Opting to design a landing page for a
+                    fitness business, I utilized flexbox for creating scalable
+                    containers and content, employing solely HTML5 and CSS3 for
+                    its realization.
+                  </p>
+                  <p class="information">
+                    The second project involved crafting a simple rock, paper,
+                    scissors game, employing JavaScript to manipulate the DOM.
+                    In this interactive game, the player engages with a computer
+                    opponent, with selections determined randomly from an array
+                    of choices. Dynamic frontend updates based on player and
+                    computer choices, alongside win condition functions, were
+                    implemented, rendering the first player to attain 5 points
+                    the winner.
+                  </p>
+                  <p class="information">
+                    For the third project, the challenge was to complete an
+                    etch-a-sketch by establishing a scalable grid using flexbox.
+                    While CSS Grid could have been utilized, the aim was to
+                    reinforce comprehension of flexbox and its practical
+                    application. Leveraging JavaScript to manipulate the DOM,
+                    the program facilitates the creation of the etch-a-sketch
+                    grid layout, with event listeners enabling tile coloring in
+                    either black or a randomly generated array of rainbow colors
+                    upon mouse interaction.
+                  </p>
+                  <p class="information">
+                    The final project entailed developing a functional
+                    calculator capable of executing the four basic mathematical
+                    functions. While the project stipulated a simple HTML-based
+                    calculator, I opted for a more challenging
+                    approach—employing DOM manipulation in JavaScript—to
+                    consolidate learnings from prior assignments. Utilizing a
+                    similar method as the etch-a-sketch for creating calculator
+                    buttons, the program incorporates event listeners for
+                    keydown, keyup, and onclick events, alongside arrays and
+                    maps for key value creation. Additionally, individual
+                    functions were created for each mathematical operation, with
+                    switch cases facilitating operation execution.
+                  </p>
+                </div>
               </div>
             </div>
             <div
