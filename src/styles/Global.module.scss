@@ -1,0 +1,171 @@
+/*Hero Section inView styles*/
+
+.welcome {
+  position: relative; /*place element on top of video*/
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  padding-top: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  top: 0;
+}
+
+.myName {
+  position: relative;
+  top: 0;
+  text-align: center;
+  color: #fff;
+  padding-top: 200px;
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.animationFade {
+  animation: fadein 1.3s;
+  transition: 1s;
+  perspective: 1000;
+  backface-visibility: hidden;
+  -webkit-animation: fadein 1.3s;
+  -webkit-transition: 1s;
+  -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    -webkit-transform: translateY(1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeinplace {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 769px) and (max-width: 960px) {
+  .hero-container > .welcome {
+    padding: 50px 0;
+  }
+
+  .welcome {
+    font-size: 50px;
+  }
+
+  .myName {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > .welcome {
+    font-size: 50px;
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .welcome {
+    margin-top: -50px;
+  }
+}
+
+.cardsContainer {
+  /*display setup for items in container*/
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cardsWrapper {
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+
+/*About Page animation styles*/
+.aboutMeContainer {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif;
+}
+
+.me {
+  margin-bottom: 25px;
+  font-size: 22px;
+  line-height: 2.75rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+.skillContainer {
+  display: flex;
+  background-color: #fff;
+  position: relative;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .skillContainer {
+    flex-direction: column;
+  }
+
+  .me {
+    margin: 50px 20px 0 20px;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 960px) {
+  .about-me-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .skill-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1100px) {
+  .me {
+    max-width: 900px;
+  }
+
+  .skill-1 {
+    padding: 35px;
+  }
+}
