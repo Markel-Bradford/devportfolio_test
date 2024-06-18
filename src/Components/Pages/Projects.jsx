@@ -93,107 +93,115 @@ function Projects() {
           </h2>
         </div>
         <div className="project-files">
-        <div
-              ref={projectName4}
-              className={`${
-                projectName4InView ? styles.animationFade : styles.hidden
-              }`}>
-              <div className="project-name-container">
-                <a
-                  className="text-links"
-                  href="https://safariguessinggame.online/"
-                  target="_blank"
-                  rel="noreferrer">
-                  <h3 className="project-name">Safari Guessing Game: <br/> <span className="tech">React, JavaScript, HTML5, CSS3, Flask, Python, Waitress, Flask-CORS</span></h3>
-                </a>
-                <a
-                  href="https://github.com/Markel-Bradford/safariguessinggame/tree/main"
-                  target="_blank"
-                  rel="noreferrer">
-                  <img
-                    className="github"
-                    src="/devportfolio/images/github.png"
-                    alt="link to Github repository"
-                  />
-                </a>
-              </div>
+          <div
+            ref={projectName4}
+            className={`${
+              projectName4InView ? styles.animationFade : styles.hidden
+            }`}>
+            <div className="project-name-container">
+              <a
+                className="text-links"
+                href="https://safariguessinggame.online/"
+                target="_blank"
+                rel="noreferrer">
+                <h3 className="project-name">
+                  {" "}
+                  Guessing Game:{" "}
+                  <span className="tech">
+                    {" "}
+                    <br />
+                    React, JavaScript, HTML5, CSS3, Flask, Python, Waitress,
+                    Flask-CORS
+                  </span>
+                </h3>
+              </a>
+              <a
+                href="https://github.com/Markel-Bradford/safariguessinggame/tree/main"
+                target="_blank"
+                rel="noreferrer">
+                <img
+                  className="github"
+                  src="/devportfolio/images/github.png"
+                  alt="link to Github repository"
+                />
+              </a>
             </div>
-            <div
-              ref={project4}
-              className={`${
-                project4InView ? styles.animationFade : styles.hidden
-              }`}>
-              <div className="thumbnail-wrapper">
-                <a
-                  href="https://safariguessinggame.online/"
-                  target="_blank"
-                  rel="noreferrer">
-                  <img
-                    className="thumbnail"
-                    src="/devportfolio/images/safarigame.PNG"
-                    alt="survery form"
-                  />
-                  <img
-                    className="thumbnail-mobile"
-                    src="/devportfolio/images/safarimobile.PNG"
-                    alt="survey form mobile thumbnail"
-                  />
-                </a>
-              </div>
+          </div>
+          <div
+            ref={project4}
+            className={`${
+              project4InView ? styles.animationFade : styles.hidden
+            }`}>
+            <div className="thumbnail-wrapper">
+              <a
+                href="https://safariguessinggame.online/"
+                target="_blank"
+                rel="noreferrer">
+                <img
+                  className="thumbnail"
+                  src="/devportfolio/images/safarigame.PNG"
+                  alt="survery form"
+                />
+                <img
+                  className="thumbnail-mobile"
+                  src="/devportfolio/images/safarimobile.PNG"
+                  alt="survey form mobile thumbnail"
+                />
+              </a>
             </div>
-            <div
-              ref={projectInfo4}
-              className={`${
-                projectInfo4InView ? styles.animationFade : styles.hidden
-              }`}>
-              <div>
-                <p className="information">
-                  The objective of this project was to create a full-stack web
-                  application that combines my knowledge of frontend and backend
-                  development, specifically using React, Flask, and related
-                  technologies. This project demonstrates my ability to
-                  integrate various web development skills to build a complete
-                  and functional application.
-                </p>
-                <p className="information">
-                  The first part of the project involved developing the backend
-                  using Flask, a micro web framework for Python. The backend
-                  handles the game logic, processes user inputs, and serves API
-                  endpoints for starting a new game and making guesses.
-                  Flask-CORS was utilized to manage cross-origin requests,
-                  ensuring seamless communication between the frontend and
-                  backend hosted on different domains.
-                </p>
-                <p className="information">
-                  The second part of the project focused on building the
-                  frontend using React. This interactive interface allows users
-                  to engage with the game, providing real-time feedback and
-                  dynamic updates. The game’s UI is styled with CSS to ensure a
-                  responsive and visually appealing experience across various
-                  devices. React’s state management capabilities were leveraged
-                  to handle the game’s state and user interactions efficiently.
-                </p>
-                <p className="information">
-                  The third aspect involved integrating the frontend and backend
-                  components. API requests are made from the React frontend to
-                  the Flask backend to start a new game and make guesses. The
-                  backend processes these requests, updates the game state, and
-                  sends responses back to the frontend, which then updates the
-                  UI accordingly. This demonstrates my ability to build and
-                  manage a full-stack application with interactive and dynamic
-                  features.
-                </p>
-                <p className="information">
-                  Finally, the project was deployed on Render, a cloud platform
-                  for hosting web applications. The backend is served using
-                  Waitress, a production-ready WSGI server for Python web
-                  applications, ensuring that the application is scalable and
-                  can handle user requests efficiently. This deployment step
-                  highlights my skills in managing and deploying web
-                  applications in a real-world environment.
-                </p>
-              </div>
+          </div>
+          <div
+            ref={projectInfo4}
+            className={`${
+              projectInfo4InView ? styles.animationFade : styles.hidden
+            }`}>
+            <div>
+              <p className="information">
+                The objective of this project was to create a full-stack web
+                application that combines my knowledge of frontend and backend
+                development, specifically using React, Flask, and related
+                technologies. This project demonstrates my ability to integrate
+                various web development skills to build a complete and
+                functional application.
+              </p>
+              <p className="information">
+                The first part of the project involved developing the backend
+                using Flask, a micro web framework for Python. The backend
+                handles the game logic, processes user inputs, and serves API
+                endpoints for starting a new game and making guesses. Flask-CORS
+                was utilized to manage cross-origin requests, ensuring seamless
+                communication between the frontend and backend hosted on
+                different domains.
+              </p>
+              <p className="information">
+                The second part of the project focused on building the frontend
+                using React. This interactive interface allows users to engage
+                with the game, providing real-time feedback and dynamic updates.
+                The game’s UI is styled with CSS to ensure a responsive and
+                visually appealing experience across various devices. React’s
+                state management capabilities were leveraged to handle the
+                game’s state and user interactions efficiently.
+              </p>
+              <p className="information">
+                The third aspect involved integrating the frontend and backend
+                components. API requests are made from the React frontend to the
+                Flask backend to start a new game and make guesses. The backend
+                processes these requests, updates the game state, and sends
+                responses back to the frontend, which then updates the UI
+                accordingly. This demonstrates my ability to build and manage a
+                full-stack application with interactive and dynamic features.
+              </p>
+              <p className="information">
+                Finally, the project was deployed on Render, a cloud platform
+                for hosting web applications. The backend is served using
+                Waitress, a production-ready WSGI server for Python web
+                applications, ensuring that the application is scalable and can
+                handle user requests efficiently. This deployment step
+                highlights my skills in managing and deploying web applications
+                in a real-world environment.
+              </p>
             </div>
+          </div>
           <div
             ref={projectName6}
             className={`${
@@ -206,7 +214,12 @@ function Projects() {
                 target="_blank"
                 rel="noreferrer">
                 <h3 className="project-name">
-                  Global Currency Converter: <br/> <span className="tech">React, JavaScript, HTML5, CSS3, REST API</span>
+                  Global Currency Converter:
+                  <br />{" "}
+                  <span className="tech">
+                    {" "}
+                    React, JavaScript, HTML5, CSS3, REST API
+                  </span>
                 </h3>
               </a>
               <a
@@ -293,7 +306,11 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer">
                   <h3 className="project-name">
-                    React Weather App: <br/> <span className="tech">React, Java Script, HTML5, CSS3, REST APIs</span>
+                    React Weather App:
+                    <br />{" "}
+                    <span className="tech">
+                      React, Java Script, HTML5, CSS3, REST APIs
+                    </span>
                   </h3>
                   {/*<h3 className="grade">Grade: A</h3>*/}
                 </a>
@@ -387,8 +404,11 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer">
                   <h3 className="project-name">
-                    The Odin Project Foundations: <br/> <span className="tech">HTML, CSS, JavaScript,
-                    Responsive Design</span>
+                    The Odin Project Foundations:
+                    <br />{" "}
+                    <span className="tech">
+                      HTML, CSS, JavaScript, Responsive Design
+                    </span>
                   </h3>
                 </a>
                 <a
@@ -499,9 +519,12 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer">
                   <h3 className="project-name">
-                    WEBD121 Final Project: <br/> <span className="tech">HTML5, CSS3, Java Script, Media Query</span>
+                    WEBD121 Final Project:<br />
+                    <span className="tech">
+                      HTML5, CSS3, Java Script, Media Query
+                    </span>
                   </h3>
-                  <h3 className="grade">Grade: A</h3>
+                  <h3 className="grade"></h3>
                 </a>
                 <a
                   href="https://github.com/Markel-Bradford/WEB121-Final"
@@ -584,8 +607,12 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer">
                   <h3 className="project-name">
-                    Baby Shower Website Template: <br/> <span className="tech"> React, JavaScript, HTML5,
-                    CSS3</span>
+                    Baby Shower Website Template:
+                    <br />{" "}
+                    <span className="tech">
+                      {" "}
+                      React, JavaScript, HTML5, CSS3
+                    </span>
                   </h3>
                 </a>
                 <a

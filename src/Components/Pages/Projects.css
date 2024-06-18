@@ -56,18 +56,21 @@
 
 .project-name-container {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    max-width: 900px;
 }
 
 .project-name {
+
+    text-align: left;
     margin-top: 80px;
     font-size: 30px;
 }
 
 .tech {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .grade {
@@ -126,10 +129,12 @@
 
 @media screen and (max-width: 960px) {
     .project-container {
+        justify-content: center;
         margin-bottom: 100px;
     }
     
     .project-name {
+        text-align: center;
         font-size: 26px;
         margin: 50px 20px 0 20px;
     }
