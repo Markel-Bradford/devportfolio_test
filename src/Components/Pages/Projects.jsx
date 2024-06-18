@@ -140,12 +140,12 @@ function Projects() {
                 <img
                   className="thumbnail"
                   src="/devportfolio/images/safarigame.PNG"
-                  alt="survery form"
+                  alt="guessing game thumbnail"
                 />
                 <img
                   className="thumbnail-mobile"
                   src="/devportfolio/images/safarimobile.PNG"
-                  alt="survey form mobile thumbnail"
+                  alt="guessing game mobile thumbnail"
                 />
               </a>
             </div>
@@ -248,13 +248,13 @@ function Projects() {
                   id="portfolio-thumbnail"
                   className="thumbnail"
                   src="/devportfolio/images/mbconverter.PNG"
-                  alt="My first portfolio"
+                  alt="curency convertor thumbnail"
                 />
                 <img
                   className="thumbnail-mobile"
                   id="mobile-portfolio"
                   src="/devportfolio/images/IMG_3345.jpg"
-                  alt="personal portfolio mobile thumbnail"
+                  alt="curency convertor mobile thumbnail"
                 />
               </a>
             </div>
@@ -345,7 +345,7 @@ function Projects() {
                   <img
                     className="thumbnail-mobile"
                     src="/devportfolio/images/IMG_2454.jpg"
-                    alt="final project mobile thumbnail"
+                    alt="weather app mobile thumbnail"
                   />
                 </a>
               </div>
