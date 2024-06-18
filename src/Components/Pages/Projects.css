@@ -66,6 +66,10 @@
     font-size: 30px;
 }
 
+.tech {
+    font-size: 26px;
+}
+
 .grade {
     font-size: 30px;
 }
@@ -127,6 +131,11 @@
     
     .project-name {
         font-size: 26px;
+        margin: 50px 20px 0 20px;
+    }
+
+    .tech {
+        font-size: 22px;
     }
     
     .information {
