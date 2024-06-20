@@ -111,7 +111,7 @@ function Projects() {
                     {" "}
                     <br />
                     React, JavaScript, HTML5, CSS3, Flask, Python, Waitress,
-                    Flask-CORS
+                    Flask-CORS, Firebase Authentication
                   </span>
                 </h3>
               </a>
@@ -190,6 +190,14 @@ function Projects() {
                 responses back to the frontend, which then updates the UI
                 accordingly. This demonstrates my ability to build and manage a
                 full-stack application with interactive and dynamic features.
+              </p>
+              <p className="information">
+                Another critical component of the project was implementing
+                Firebase Authentication for user management. This allowed users
+                to sign up, log in, and maintain their game progress securely.
+                Firebase Authentication provides robust security measures and
+                easy integration with React, enhancing the application's overall
+                user experience and security.
               </p>
               <p className="information">
                 Finally, the project was deployed on Render, a cloud platform
@@ -519,7 +527,8 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer">
                   <h3 className="project-name">
-                    WEBD121 Final Project:<br />
+                    WEBD121 Final Project:
+                    <br />
                     <span className="tech">
                       HTML5, CSS3, Java Script, Media Query
                     </span>
