@@ -101,7 +101,7 @@ function Projects() {
             <div className="project-name-container">
               <a
                 className="text-links"
-                href="https://safariguessinggame.onrender.com/"
+                href="https://safariguessingame-0deac2bf61b5.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer">
                 <h3 className="project-name">
@@ -134,7 +134,7 @@ function Projects() {
             }`}>
             <div className="thumbnail-wrapper">
               <a
-                href="https://safariguessinggame.onrender.com/"
+                href="https://safariguessingame-0deac2bf61b5.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer">
                 <img
