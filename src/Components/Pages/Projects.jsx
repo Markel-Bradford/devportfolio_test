@@ -200,7 +200,7 @@ function Projects() {
                 user experience and security.
               </p>
               <p className="information">
-                Finally, the project was deployed on Render, a cloud platform
+                Finally, the project was deployed on Heroku, a cloud platform
                 for hosting web applications. The backend is served using
                 Waitress, a production-ready WSGI server for Python web
                 applications, ensuring that the application is scalable and can
