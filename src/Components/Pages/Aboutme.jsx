@@ -85,7 +85,7 @@ function AboutMe() {
             <p>
               In my professional capacity, I serve as a Site Operations Manager
               at Stratosphere Quality, a leading third-party quality assurance
-              company, while concurrently holding a front-end web developer
+              company, while concurrently holding a freelance front-end web developer
               position at Kaiju's Grub LLC. With a history of leadership roles
               dating back to my teenage years, I bring a wealth of experience
               and a proactive approach to every challenge. Now, I eagerly seek

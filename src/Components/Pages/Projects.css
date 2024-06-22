@@ -5,7 +5,7 @@
     max-width: 1300px;
     width: 100%;
     margin: 0 auto 100px auto;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "Open Sans";
 }
 
 .project-view {
@@ -91,6 +91,7 @@
     font-size: 22px;
     line-height: 2.75rem;
     margin: 25px 0;
+    padding: 0 20px;
 }
 
 @media screen and (min-width:300px) and (max-width:600px) {
@@ -144,7 +145,7 @@
     }
     
     .information {
-        margin: 50px 20px 0 20px;
+        padding: 0 20px;
     }
     
     .thumbnail {
