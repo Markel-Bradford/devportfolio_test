@@ -3,6 +3,9 @@ import "../../App.css";
 import HeroSection from "../HeroSection";
 import Cards from "../Cards";
 import { motion } from "framer-motion";
+import AboutMe from "./Aboutme";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 
 function Homepage() {
@@ -15,6 +18,9 @@ function Homepage() {
       exit={{ opacity: 0, transition: { duration: 0.1 } }}>
       <HeroSection />
       <Cards />
+      <AboutMe />
+      <Projects />
+      <Contact />
     </motion.div>
   );
 }

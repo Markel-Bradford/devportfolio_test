@@ -5,7 +5,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
     font-family: 'PT Sans', sans-serif;
 }
@@ -22,7 +22,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
+    max-width: 1300px;
     margin: 0 auto;
     font-family: 'PT Sans', sans-serif;
 }
