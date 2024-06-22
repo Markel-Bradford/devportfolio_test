@@ -29,10 +29,10 @@ function Contact(){
         <div ref={pics} className={`${picsInView ? styles.animationFade : " "}`}>
         <div className='contact-wrapper'>
         <a href="mailto:markel.bradford94@gmail.com">
-            <img className="icon" src="/devportfolio/images/contact2.jpg" alt="Email me"/>                
+            <img className="icon" src="/devportfolio_test/images/contact2.jpg" alt="Email me"/>                
             </a>
          <a href="https://www.linkedin.com/in/markel-bradford-1773a9236">
-            <img className="icon" src="/devportfolio/images/contact1.jpg" alt="My LinkedIn Profile"/>
+            <img className="icon" src="/devportfolio_test/images/contact1.jpg" alt="My LinkedIn Profile"/>
             </a>
             </div>
         </div>

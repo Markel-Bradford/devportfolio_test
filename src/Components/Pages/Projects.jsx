@@ -1,7 +1,6 @@
 import React from "react";
 import "../../App.css";
 import "./Projects.css";
-import { motion } from "framer-motion";
 import styles from "../../styles/Global.module.scss";
 import { useInView } from "react-intersection-observer";
 
@@ -74,12 +73,9 @@ function Projects() {
   });
 
   return (
-    <motion.div
+    <div
     id="projects"
-    className="projectsBg"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.1 } }}
-      exit={{ opacity: 0, transition: { duration: 0.1 } }}>
+    className="projectsBg">
         <div className="filler2"></div>
       <h1 ref={title} className="projects">
         {" "}
@@ -123,7 +119,7 @@ function Projects() {
                 rel="noreferrer">
                 <img
                   className="github"
-                  src="/devportfolio/images/github.png"
+                  src="/devportfolio_test/images/github.png"
                   alt="link to Github repository"
                 />
               </a>
@@ -141,12 +137,12 @@ function Projects() {
                 rel="noreferrer">
                 <img
                   className="thumbnail"
-                  src="/devportfolio/images/safarigame.PNG"
+                  src="/devportfolio_test/images/safarigame.PNG"
                   alt="guessing game thumbnail"
                 />
                 <img
                   className="thumbnail-mobile"
-                  src="/devportfolio/images/safarimobile.PNG"
+                  src="/devportfolio_test/images/safarimobile.PNG"
                   alt="guessing game mobile thumbnail"
                 />
               </a>
@@ -238,7 +234,7 @@ function Projects() {
                 rel="noreferrer">
                 <img
                   className="github"
-                  src="/devportfolio/images/github.png"
+                  src="/devportfolio_test/images/github.png"
                   alt="link to Github repository"
                 />
               </a>
@@ -257,13 +253,13 @@ function Projects() {
                 <img
                   id="portfolio-thumbnail"
                   className="thumbnail"
-                  src="/devportfolio/images/mbconverter.PNG"
+                  src="/devportfolio_test/images/mbconverter.PNG"
                   alt="curency convertor thumbnail"
                 />
                 <img
                   className="thumbnail-mobile"
                   id="mobile-portfolio"
-                  src="/devportfolio/images/IMG_3345.jpg"
+                  src="/devportfolio_test/images/IMG_3345.jpg"
                   alt="curency convertor mobile thumbnail"
                 />
               </a>
@@ -330,7 +326,7 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio/images/github.png"
+                    src="/devportfolio_test/images/github.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -349,12 +345,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio/images/weatherapp.png"
+                    src="/devportfolio_test/images/weatherapp.png"
                     alt="Weather app create using react, weather, and geo apis"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio/images/IMG_2454.jpg"
+                    src="/devportfolio_test/images/IMG_2454.jpg"
                     alt="weather app mobile thumbnail"
                   />
                 </a>
@@ -427,7 +423,7 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio/images/github.png"
+                    src="/devportfolio_test/images/github.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -445,12 +441,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio/images/topfoundations.png"
+                    src="/devportfolio_test/images/topfoundations.png"
                     alt="Homepage for my Odin Project Foundations collection"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio/images/topmobile.PNG"
+                    src="/devportfolio_test/images/topmobile.PNG"
                     alt="odin project mobile thumbnail"
                   />
                 </a>
@@ -543,7 +539,7 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio/images/github.png"
+                    src="/devportfolio_test/images/github.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -562,12 +558,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio/images/finalproject.JPG"
+                    src="/devportfolio_test/images/finalproject.JPG"
                     alt="Final project for WEBD121 class"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio/images/IMG_2448.PNG"
+                    src="/devportfolio_test/images/IMG_2448.PNG"
                     alt="final project mobile thumbnail"
                   />
                 </a>
@@ -632,7 +628,7 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio/images/github.png"
+                    src="/devportfolio_test/images/github.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -651,12 +647,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio/images/babyshowertemp.JPG"
+                    src="/devportfolio_test/images/babyshowertemp.JPG"
                     alt="Baby shower website template"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio/images/IMG_2447.PNG"
+                    src="/devportfolio_test/images/IMG_2447.PNG"
                     alt="baby shower template mobile thumbnail"
                   />
                 </a>
@@ -694,7 +690,7 @@ function Projects() {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
