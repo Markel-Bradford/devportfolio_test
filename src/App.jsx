@@ -9,7 +9,7 @@ import AnimatedRoutes from './Components/AnimatedRoutes';
 function App() {
 
   return (
-    <Router basename='/devportfolio'>
+    <Router basename='/devportfolio_test'>
       <AnimatedRoutes />
     </Router>
   );
