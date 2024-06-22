@@ -17,10 +17,10 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <AnchorLink href="#home" className="navbar-logo" onClick={closeMobileMenu}>
                 MB.Portfolio
                 <i className="fa-solid fa-code-commit" />
-            </Link>
+            </AnchorLink>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> {/*? is equal to true. : creates toggle from one item to another.  */}
                 </div>
@@ -50,13 +50,13 @@ function Navbar() {
                     </li>
                     
                     <li className='nav-item'>
-                        <a href='/devportfolio/Markel_Bradford_Developer_Resume.pdf' className='nav-links-mobile' onClick={closeMobileMenu} target="_blank" rel='noreferrer'> 
+                        <a href='/devportfolio_test/Markel_Bradford_Developer_Resume.pdf' className='nav-links-mobile' onClick={closeMobileMenu} target="_blank" rel='noreferrer'> 
                         Resume
                         </a>
                     </li>
 
                     <li>
-                        <a href='/devportfolio/Markel_Bradford_Developer_Resume.pdf' className='resume-button' target='_blank'>Resume</a>
+                        <a href='/devportfolio_test/Markel_Bradford_Developer_Resume.pdf' className='resume-button' target='_blank'>Resume</a>
                     </li>
                 </ul>
             </div>
