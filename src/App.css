@@ -46,6 +46,14 @@
   font-size: 100px;
 }
 
+.filler2 {
+  height: 8vh;
+  background: #fff;
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width:600px) {
   .about-me, 
   .projects, 

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { Link} from 'react-router-dom'
 import './Navbar.css';
 import './ScrollToTop';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Navbar() {
     const [click, setClick] = useState(false); /*creates opposite state to open and close menu on click*/
@@ -25,27 +26,27 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <AnchorLink href='#home' className='nav-links' onClick={closeMobileMenu}>
                         Home
-                        </Link>
+                        </AnchorLink>
                     </li>    
                 
                     <li className='nav-item'>
-                        <Link to='/about-me' className='nav-links' onClick={closeMobileMenu}>
+                        <AnchorLink href='#aboutme' className='nav-links' onClick={closeMobileMenu}>
                         About Me
-                        </Link>
+                        </AnchorLink>
                     </li>
                     
                     <li className='nav-item'>
-                        <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                        <AnchorLink href='#projects' className='nav-links' onClick={closeMobileMenu}>
                         Projects
-                        </Link>
+                        </AnchorLink>
                     </li>
                     
                     <li className='nav-item'>
-                        <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                        <AnchorLink href='#contact' className='nav-links' onClick={closeMobileMenu}>
                         Contact
-                        </Link>
+                        </AnchorLink>
                     </li>
                     
                     <li className='nav-item'>

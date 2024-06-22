@@ -75,10 +75,12 @@ function Projects() {
 
   return (
     <motion.div
+    id="projects"
     className="projectsBg"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.1 } }}
       exit={{ opacity: 0, transition: { duration: 0.1 } }}>
+        <div className="filler2"></div>
       <h1 ref={title} className="projects">
         {" "}
         <span
@@ -89,8 +91,7 @@ function Projects() {
       <div ref={ref} className="project-container">
         <div className={`${inView ? styles.animationFade : styles.hidden}`}>
           <h2 className="project-view">
-            Please browse and review the projects I've completed and their
-            repositories
+            Please browse and review the projects I've completed
           </h2>
         </div>
         <div className="project-files">

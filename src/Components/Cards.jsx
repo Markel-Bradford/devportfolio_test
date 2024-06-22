@@ -3,6 +3,7 @@ import Carditems from './Carditems'
 import './Cards.css'
 import styles from '../styles/Global.module.scss'
 import { useInView } from "react-intersection-observer";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 function Cards() {
@@ -23,9 +24,15 @@ function Cards() {
           <div ref={cards} className={`${styles.cardsContainer}`}>
             <div className={`${styles.cardsWrapper} ${ cardsInView ? styles.animationFade : styles.hidden}`}>
                 <ul className='cardsItems'>
-                <Carditems src='/devportfolio/images/DSC06958.JPG' text="Hi, my name is Markel Bradford, and I am an aspiring front-end developer!" label='About Me' path='/about-me' />
-                <Carditems src='/devportfolio/images/SurveyForm.png' text='Please take a look at the projects that I have completed.' label='My Projects' path='/projects' />
-                <Carditems className='contact-me' src='/devportfolio/images/contact.jpg' text='Connect with me on LinkedIn or via email!' label='Contact Me' path='/contact' />
+                <AnchorLink className='cardAnchor' href='#aboutme' >
+                  <Carditems src='/devportfolio/images/DSC06958_card.jpg' text="Hi, my name is Markel Bradford, aspiring front-end developer!" label='About Me' path='#aboutme' />
+                </AnchorLink>
+                <AnchorLink className='cardAnchor' href='#projects' >
+                <Carditems src='/devportfolio/images/safarigame.PNG' text='Please take a look at the projects that I have completed.' label='My Projects' path='#projects' />
+                </AnchorLink>
+                <AnchorLink className='cardAnchor' href='#contact' >
+                <Carditems className='contact-me' src='/devportfolio/images/contact.jpg' text='Connect with me on LinkedIn or via email!' label='Contact Me' path='#contact' />
+                </AnchorLink>
                 </ul>
             </div>
           </div>    

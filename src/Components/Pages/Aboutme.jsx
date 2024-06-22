@@ -1,7 +1,6 @@
 import React from "react";
 import "../../App.css";
 import "./Aboutme.css";
-import { motion } from "framer-motion";
 import styles from '../../styles/Global.module.scss'
 import { useInView } from "react-intersection-observer";
 
@@ -38,10 +37,9 @@ function AboutMe() {
   });
   
   return (
-    <motion.div
-    initial={{ opacity:  0}}
-    animate={{ opacity: 1, transition: { duration: 0.1 } }}
-    exit={{ opacity: 0, transition: { duration: 0.1 } }}>
+    <div
+    id="aboutme">
+      <div className="filler2"></div>
       <h1 className="about-me"><span ref={title} className={`${titleInView ? styles.animationFade : styles.hidden}`}>About Me</span></h1>
       <div className="about-container">
         <div className="about-me-container">
@@ -96,6 +94,7 @@ function AboutMe() {
           </div>
         </div>
         <div className="filler"></div>
+        <div className="skills-container">
         <div ref={section4} className={`${styles.aboutMeContainer} ${section4InView ? styles.animationFade : styles.hidden}`}>
           <h3 className="title-skills">Skills</h3>
         </div>
@@ -156,9 +155,10 @@ function AboutMe() {
             <h3 className="verify">Verify my certificate here</h3>
           </a>
           </div>
+          </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

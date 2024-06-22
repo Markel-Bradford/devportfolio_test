@@ -6,7 +6,6 @@
     padding: 4rem;
     background: #fff;
     font-family: 'PT Sans', sans-serif;
-    
 }
 
 h1 {
@@ -15,13 +14,22 @@ h1 {
     animation: fadein 2s;
 }
 
+.cardAnchor {
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    width: calc(33.333% - 2rem); /* Adjust based on the number of cards per row */
+}
+
 .cardsItems {
     margin-bottom: 24px;
 }
 
 .cardsItem {
     display: flex;
-    flex: 1;
+    height: 100%;
+    
+    flex: 1 1 auto;
     margin: 0 1rem;
     border-radius: 10px;
 }
@@ -107,5 +115,9 @@ h1 {
     
     .cardsItem {
         margin-bottom: 2rem;
-    }    
+    }
+    
+    .cardAnchor {
+        width: 100%;
+    }
 }

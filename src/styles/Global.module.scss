@@ -60,10 +60,6 @@
 }
 
 @media screen and (max-width: 769px) and (max-width: 960px) {
-  .hero-container > .welcome {
-    padding: 50px 0;
-  }
-
   .welcome {
     font-size: 50px;
   }
@@ -81,19 +77,14 @@
   }
 }
 
-@media screen and (max-width: 400px) {
-  .welcome {
-    margin-top: -50px;
-  }
-}
-
 .cardsContainer {
   /*display setup for items in container*/
   display: flex;
+  flex: 1 1 auto;
   flex-flow: column;
   align-items: center;
   max-width: 1400px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -120,7 +111,7 @@
   font-size: 22px;
   line-height: 2.75rem;
   font-family: "Open Sans";
-  padding: 15px 60px;
+  padding: 15px 60px 0 60px;
 }
 
 .skillContainer {
@@ -144,6 +135,7 @@
   .me {
     font-size: 20px;
     line-height: 2rem;
+    padding: 10px 20px;
   }
 }
 
