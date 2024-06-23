@@ -101,18 +101,29 @@ function AboutMe() {
         <div ref={skills} className={`${styles.skillContainer} ${skillsInView ? styles.animationFade : styles.hidden}`}>
           <img
             className="skill"
-            src="/devportfolio_test/images/HTMLCSSJS.png"
+            src="/devportfolio_test/images/trifecta.png"
             alt="HTML CSS and JS Logo"
+          />
+          
+          <img
+            className="skill-2"
+            src="/devportfolio_test/logo512.png"
+            alt="react logo"
+          />
+          <img
+            className="py-skill"
+            src="/devportfolio_test/images/python.png"
+            alt="python logo"
+          />
+          <img
+            className="py-skill"
+            src="/devportfolio_test/images/firebase.png"
+            alt="firebase logo"
           />
           <img
             className="skill-1"
             src="/devportfolio_test/images/VScode.png"
             alt="VSCode logo"
-          />
-          <img
-            className="skill-2"
-            src="/devportfolio_test/logo512.png"
-            alt="react logo"
           />
         </div>
         <div ref={certs} className={`${styles.aboutMeContainer} ${certsInView ? styles.animationFade : styles.hidden}`}>

@@ -45,25 +45,26 @@ h3, h4 {
 }
 
 .skills-container {
-    background: #fff;
     position: relative;
     max-width: 1300px;
     margin: 0 auto;
 }
 
 .skill {
-   width: 400px; 
+   width: 200px; 
 }
 
 .skill-1 {
     width: 170px;
-    margin: 0 5px 0 20px;
 }
 
 .skill-2 {
     width: 170px;
-    margin: 0 5px 0 20px;
     animation: spin 20s linear infinite;
+}
+
+.py-skill {
+    width: 200px;
 }
 
 @keyframes spin {
@@ -115,7 +116,7 @@ h3, h4 {
     }
 
     .skill {
-        width: 300px; 
+        width: 200px; 
      }
 
      .skill-1 {

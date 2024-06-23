@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Audiowide", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #555;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  .cardsItemText,
+  .certification,
+  .project-view,
+  .contactMethods {
+    color: #fff;
+  }
+
+  .about-me,
+  .projects,
+  .contact,
+  .name {
+    color: #ffd700;
+  }
+
+  .filler2,
+  .cards,
+  .about-me-container,
+  .skills-container,
+  .contactContainer,
+  .skillContainer,
+  .project-container,
+  .contact-img {
+    background-color: #111;
+  }
+
+  .text-links:hover {
+    color: #ffd700;
+  }
+
+  .github {
+    display: none;
+  }
+
+  .verify-link:hover {
+    color: #ffd700;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+    .github2 {
+        display: none;
+    }
+
+    h1,
+  h2,
+  h3,
+  h4,
+  .cardsItemText,
+  .certification,
+  .project-view,
+  .contactMethods {
+    color: midnightblue;
+  }
+
+  p,.name {
+    color: #000;
+  }
+
+  .filler2,
+  .cards,
+  .about-me-container,
+  .skills-container,
+  .skillContainer,
+  .project-container,
+  .contactContainer,
+  .contact-img {
+    background-color: #fff;
+  }
+
+  .verify-link:hover {
+    color: midnightblue;
+  }
+}

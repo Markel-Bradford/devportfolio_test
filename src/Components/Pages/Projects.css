@@ -49,10 +49,6 @@
    display: none;
 }
 
-#portfolio-thumbnail {
-    border: solid 2px midnightblue;
-}
-
 .thumbnail:hover {
     box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
 }
@@ -80,13 +76,13 @@
     font-size: 30px;
 }
 
-.github {
+.github, .github2 {
     display: flex;
     width: 80px;
     margin: 70px 0 0 20px;
 }
 
-.github:hover {
+.github:hover, .github2:hover {
     transform: scale(1.2);
 }
 

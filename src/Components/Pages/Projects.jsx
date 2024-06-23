@@ -122,6 +122,11 @@ function Projects() {
                   src="/devportfolio_test/images/github.png"
                   alt="link to Github repository"
                 />
+                <img
+                    className="github2"
+                    src="/devportfolio_test/images/whitegithub.png"
+                    alt="link to Github repository"
+                  />
               </a>
             </div>
           </div>
@@ -237,6 +242,11 @@ function Projects() {
                   src="/devportfolio_test/images/github.png"
                   alt="link to Github repository"
                 />
+                <img
+                    className="github2"
+                    src="/devportfolio_test/images/whitegithub.png"
+                    alt="link to Github repository"
+                  />
               </a>
             </div>
           </div>
@@ -327,6 +337,11 @@ function Projects() {
                   <img
                     className="github"
                     src="/devportfolio_test/images/github.png"
+                    alt="link to Github repository"
+                  />
+                  <img
+                    className="github2"
+                    src="/devportfolio_test/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -424,6 +439,11 @@ function Projects() {
                   <img
                     className="github"
                     src="/devportfolio_test/images/github.png"
+                    alt="link to Github repository"
+                  />
+                  <img
+                    className="github2"
+                    src="/devportfolio_test/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -542,6 +562,11 @@ function Projects() {
                     src="/devportfolio_test/images/github.png"
                     alt="link to Github repository"
                   />
+                  <img
+                    className="github2"
+                    src="/devportfolio_test/images/whitegithub.png"
+                    alt="link to Github repository"
+                  />
                 </a>
               </div>
             </div>
@@ -629,6 +654,11 @@ function Projects() {
                   <img
                     className="github"
                     src="/devportfolio_test/images/github.png"
+                    alt="link to Github repository"
+                  />
+                  <img
+                    className="github2"
+                    src="/devportfolio_test/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
