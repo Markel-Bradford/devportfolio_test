@@ -62,7 +62,6 @@
 }
 
 .project-name {
-
     text-align: left;
     margin-top: 80px;
     font-size: 30px;
@@ -124,6 +123,10 @@
         font-size: 20px;
         padding: 10px 20px;
         margin: 0;
+    }
+
+    .github, .github2 {
+        margin-top: 35px;
     }
 }
 

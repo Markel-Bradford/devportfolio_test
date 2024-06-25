@@ -1,5 +1,4 @@
 .about-me-container {
-    background-color: #fff;
     display:flex;
     position: relative;
     flex-flow: column;
@@ -129,6 +128,8 @@ h3, h4 {
     }
 
     .certification {
+        padding: 0 20px;
+        font-size: 24px;
         text-align: center;
     }
 

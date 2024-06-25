@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import { Link} from 'react-router-dom'
 import './Navbar.css';
 import './ScrollToTop';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Toggle from './Toggle';
 
 function Navbar() {
     const [click, setClick] = useState(false); /*creates opposite state to open and close menu on click*/
@@ -57,6 +57,9 @@ function Navbar() {
 
                     <li>
                         <a href='/devportfolio_test/Markel_Bradford_Developer_Resume.pdf' className='resume-button' target='_blank'>Resume</a>
+                    </li>
+                    <li className='nav-item'>
+                        <Toggle />
                     </li>
                 </ul>
             </div>
