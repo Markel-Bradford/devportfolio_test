@@ -8,6 +8,8 @@
   --card-text: #fff;
   --accent: #ffd700;
   --toggle: #fff;
+  --display-gh: none;
+  --display-gh2: display;
 }
 
 .theme-light {
@@ -20,6 +22,8 @@
   --card-text: midnightblue;
   --accent: midnightblue;
   --toggle: green;
+  --display-gh: display;
+  --display-gh2: none;
 }
 
 html,
@@ -121,6 +125,14 @@ p,
     color: #777;
 }
 
+.github {
+    display: var(--display-gh);
+}
+
+.github2 {
+    display: var(--display-gh2);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: var(--light-text);
@@ -172,10 +184,6 @@ h4, .certification
 
   .text-links:hover {
     color: var(--accent);
-  }
-
-  .github {
-    display: none;
   }
 
   .verify {
